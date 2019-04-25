@@ -3,12 +3,12 @@
 //props to scotch.io for teaching me fetch api
 var apiKey = '78a26d4681b4c38c1614e7c0f8f366c0';
 //first we get location
-fetch('http://ip-api.com/json/')
+fetch('https://ipapi.co/json/')
   .then(res => res.json())
   .then(function(data){
     console.log('geoloc api response: ', data);
     var city = data.city;
-    var country = data.countryCode;
+    var country = data.country;
     
     //now we build our weather search
     var apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&units=imperial&mode=json&APPID=' + apiKey;
