@@ -3,7 +3,7 @@
 //props to scotch.io for teaching me fetch api
 var apiKey = '78a26d4681b4c38c1614e7c0f8f366c0';
 //first we get location
-fetch('https://ip-api.com/json/')
+fetch('http://ip-api.com/json/')
   .then(res => res.json())
   .then(function(data){
     console.log('geoloc api response: ', data);
