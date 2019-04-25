@@ -35,9 +35,11 @@ var date = new Date();
 var day = date.getDate();
 var weekday = date.getDay();
 var monthIndex = date.getMonth();
-var year = date.getFullYear();
-
-$("#date").text(days[weekday] + ", " + monthNames[monthIndex] + " " + day);
-//document.getElementById("date").innerHTML = days[weekday] + ", " + monthNames[monthIndex] + " " + day;
+var year = date.getFullYear(days[weekday] + ", " + monthNames[monthIndex] + " " + day);
+//finished line of text to get printed
+var cal = (days[weekday] + ", " + monthNames[monthIndex] + " " + day);
+ $("index.html").ready(function(){
+      $("#calendar").html(cal);
+    });
 
   

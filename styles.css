@@ -1,9 +1,3 @@
- html, body, div, span {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     background-color: #fafafa;
     font-family: "Roboto", sans-serif;
@@ -16,17 +10,20 @@ body {
 }
 
 .hud{
-  position: absolute;
-  top: 5%;
+  position:fixed;
   left:0;
+  top:6%;
+  padding:10px 0px 10px 0px;
+  /*      top  rgt btm  lft*/
   width: 100%;
   background-color: #414656;
   opacity: 0.85;
-  padding: 20px 40px 10px 40px;
 }
 
 div.container {
-  display: flex;
+  display: none;
+  
+  
   top: 30%;
   left: 5%;
   position:fixed;
@@ -39,6 +36,7 @@ div.container {
 }
 
 .flex-item {
+  display:none;
   padding: 0px 30px 10px 5px;
 }
 
@@ -51,33 +49,21 @@ div.container {
     transition: width .1s ease;
     -webkit-transition: width .1s ease;
 }
-#date {
-    color: rgb(40,40,40);
-    text-indent: 10px;
-    font-weight: 400;
-    font-size: 12pt;
-    text-align: center;
-}
+
 
 #weather-loc{
-  position:absolute;
-  top: 25%;
-  text-align:right;
+  clear: left;
+  display:none;
 }
 
-#weather-temp{
-  display:inline-grid;
-  text-align:right;
+#calendar{
+  clear:left;
+  display:none;
 }
 
 #weather-tab {
   color:rgb(0,0,0);
-
-}
-#desc {
-    display:none;
-    color: rgb(31,31,31);
-    font-size: 10pt;
+  display:none;
 }
 
 

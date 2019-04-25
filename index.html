@@ -3,8 +3,8 @@
 
   <!--new start page from scratch 4/23/19 -->
   <!--          TODO
-        -port to github.io
-        -clean up code & split files
+        -DONE port to github.io
+        -DONE clean up code & split files
         -add searchbar
             -TBD stuff for searchbar
         -add shortcuts
@@ -32,15 +32,14 @@
 <body>
   <div class="hud">
     <h1 id="clock"></h1>
-    <span id="weather-loc" align="center">location</span>
-    <span id="weather-temp" align="center">loading weather data...</span>
-    <br/>
-    <span id="date"></span>
+    <span id="calendar" align="center"></span>
+    <span id="weather-loc" align="center"></span>
   </div>
   <div class="container">
       <div class="flex-item" id="weather-tab">
-        <h3>Outside</h3>
-        <p id="weather-desc"></p>
+        <h5>Local Weather</h5>
+        <hr>
+        <p id="weather-desc">loading...</p>
       </div>
       <div class="flex-item">test1</div>
       <div class="flex-item">test2</div>
