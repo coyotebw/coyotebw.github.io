@@ -20,12 +20,17 @@ fetch('https://ipapi.co/json/')
       //for debugging
       console.log('OpenWeatherAPI response: ', data);
       //fetch temperature
-     // $("#weather-temp").text(data.main.temp + '\xB0 F');
+      $("#weather-temp").text(data.main.temp + '\xB0 F');
       //fetch location
       $("#weather-loc").text(city + ", " + region);
-      //fetch description of conditions, incl. temperature range (var for readability)
-      $("#weather-desc").text(data.weather[0].main + "  -  " + data.main.temp + '\xB0 F');
-      //fetch sunset time
+      //fetch description of conditions
+      $("#weather-title").append(data.weather[0].main);
+      //fetch min-max temps
+      $("#weather-minmax").text(data.main.temp_min + '\xB0  //  ' + data.main.temp_max + '\xB0');
+      //put up the little icon for the weather
+      var iconcode = data.weather[0].icon;
+      var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+      $('#wicon').attr('src', iconurl);
       
     }).catch(err => console.error(err));
 }).catch(err => console.error(err));

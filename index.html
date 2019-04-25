@@ -32,19 +32,22 @@
 <body>
   <div class="hud">
     <div id="clock"></div>
-    <div id="calendar"></div>
-    <div id="weather-loc" align="left"></div>
+    <div id="weather-parent">
+      <div id="calendar"></div>
+      <div id="weather-loc" align="left"></div>
+    </div>
   </div>
     
   <div class="container">
+     <div id="weather-title">
+       <img id="wicon" src="" alt="icon">
+     </div>
+     <hr>
       <div class="flex-item" id="weather-tab">
-        <h5>Local Weather</h5>
-        <hr>
-        <p id="weather-desc">loading...</p>
+        <p id="weather-desc"></p>
       </div>
-      <div class="flex-item">test1</div>
-      <div class="flex-item">test2</div>
-      <div class="flex-item">test3</div>
+      <div class="flex-item" id="weather-temp">test1</div>
+      <div class="flex-item" id="weather-minmax">test2</div>
   </div>
  <span id="philos">test</span>
 </body>
