@@ -18,9 +18,11 @@ fetch('http://ip-api.com/json/')
       .then(function(data) {
       console.log('OpenWeatherAPI response: ', data);
       //fetch temperature
-      document.getElementById("weather-temp").innerHTML = data.main.temp + '° F';
+      $("#weather-temp").text(data.main.temp + '\xB0 F');
+      //document.getElementById("weather-temp").innerHTML = data.main.temp + '° F';
       //fetch location
-      document.getElementById("weather-loc").innerHTML = data.name;
+      $("#weather-loc").text(data.name);
+      //document.getElementById("weather-loc").innerHTML = data.name;
         
     }).catch(err => console.error(err));
 })
