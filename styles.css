@@ -10,8 +10,10 @@ body {
 }
 
 .hud{
-  position:fixed;
-  left:0;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  left:0%;
   top:6%;
   padding:10px 0px 10px 0px;
   /*      top  rgt btm  lft*/
@@ -21,22 +23,18 @@ body {
 }
 
 div.container {
-  display: none;
-  
-  
   top: 30%;
   left: 5%;
   position:fixed;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: ;
   background-color: #fafafa;
 
   padding: 20px 40px 10px 40px;
 }
 
 .flex-item {
-  display:none;
   padding: 0px 30px 10px 5px;
 }
 
@@ -44,26 +42,26 @@ div.container {
     color: rgb(0,0,0);
     font-weight: 400;
     font-size: 40pt;
-    display: inline;
-    text-align: center;
+    flex:1;
+    width: 30%;
+    padding-left: 20px;
+    text-align: left;
     transition: width .1s ease;
     -webkit-transition: width .1s ease;
 }
 
 
 #weather-loc{
-  clear: left;
-  display:none;
+ flex: 1;
 }
 
 #calendar{
-  clear:left;
-  display:none;
+  flex: 1;
 }
+
 
 #weather-tab {
   color:rgb(0,0,0);
-  display:none;
 }
 
 

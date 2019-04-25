@@ -28,4 +28,4 @@ fetch('https://ipapi.co/json/')
       //fetch sunset time
       
     }).catch(err => console.error(err));
-})
+}).catch(err => console.error(err));
