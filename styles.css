@@ -7,7 +7,7 @@
 body {
     background-color: #fafafa;
     font-family: "Roboto", sans-serif;
-    background-image: url("night.jpg");
+    background-image: url("assets/iss.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,9 +20,26 @@ body {
   top: 5%;
   left:0;
   width: 100%;
-  background-color: #fafafa;
-  opacity: 0.3;
+  background-color: #414656;
+  opacity: 0.85;
   padding: 20px 40px 10px 40px;
+}
+
+div.container {
+  display: flex;
+  top: 30%;
+  left: 5%;
+  position:fixed;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #fafafa;
+
+  padding: 20px 40px 10px 40px;
+}
+
+.flex-item {
+  padding: 0px 30px 10px 5px;
 }
 
 #clock {
@@ -53,6 +70,10 @@ body {
   text-align:right;
 }
 
+#weather-tab {
+  color:rgb(0,0,0);
+
+}
 #desc {
     display:none;
     color: rgb(31,31,31);

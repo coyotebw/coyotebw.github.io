@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  
+
   <!--new start page from scratch 4/23/19 -->
   <!--          TODO
         -port to github.io
@@ -13,6 +13,7 @@
         -more weather/local info
         -dropdown w/ view options?
         -console???
+        -gmail api
   -->
   <head>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'/>
@@ -22,12 +23,12 @@
     <script src='clock.js'></script>
     <script src='philos.js'></script>
     <script src='weather.js'></script>
-    
+
     <title>New Tab</title>
   </head>
-  
 
-  
+
+
 <body>
   <div class="hud">
     <h1 id="clock"></h1>
@@ -36,7 +37,15 @@
     <br/>
     <span id="date"></span>
   </div>
-  
+  <div class="container">
+      <div class="flex-item" id="weather-tab">
+        <h3>Outside</h3>
+        <p id="weather-desc"></p>
+      </div>
+      <div class="flex-item">test1</div>
+      <div class="flex-item">test2</div>
+      <div class="flex-item">test3</div>
+  </div>
  <span id="philos">test</span>
 </body>
 </html>
