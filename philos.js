@@ -55,7 +55,8 @@
       , "blushing is the color of virtue. <br> -diogenes of sinope"
       , "the foundation of every state is the education of its youth. <br> -diogenes of sinope"
       , "no, emptiness is not nothingness. emptiness is a type of existence. you must use this existential emptiness to fill yourself. <br> -cixin liu"
-      
+      , "depression, like love, trades in cliches, and it is difficult to speak of it without lapsing into the rhetoric of saccharine pop tunes; it is so vivid when experienced that the notion that others have known anything similar seems altogether implausible. <br> -andrew solomon"
+      , "if you wake up one morning feeling no pain, you know you are dead. <br> -russian proverb"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
