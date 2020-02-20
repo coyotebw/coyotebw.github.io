@@ -61,6 +61,12 @@
       , "time destroys the speculation of men, but it confirms nature. <br> -cicero"
       , "the greatest pleasures are only narrowly separated from disgust. <br> -cicero"
       , "to be neutral does not mean to be indifferent or insensitive. you don't have to kill your feelings. it's enough to kill hatred within yourself. <br> -geralt of rivia"
+      , "for if it's all the rest of us who are killed by the suicide, it's himself who the murderer kills; only he has to do it over, and over, and over. <br> -ursula leguin"
+      , "the end justifies the means. but what if there never is an end? all we have is means. <br> -ursula leguin"
+      , "things don't have purposes, as if the universe were a machine where every part has a useful function. what's the function of a galaxy? i don't know if our life has a purpose and i don't see that it matters. what does matter is that we're a part. like a thread in a cloth or a grass-blade in a field. It is and we are. what we do is like wind blowing on the grass. <br> -ursula leguin"
+      , "a machine is more blameless, more sinless even than any animal. it has no intentions whatsoever but our own. <br> -ursula leguin"
+      , "everything dreams. the play of form, of being, is the dreaming of substance. rocks have their dreams, and the earth changes... <br> -ursula leguin"
+      , "a man can endure the entire weight of the universe for eighty years. it is unreality that he cannot bear. <br> -ursula leguin"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
