@@ -67,6 +67,11 @@
       , "a machine is more blameless, more sinless even than any animal. it has no intentions whatsoever but our own. <br> -ursula leguin"
       , "everything dreams. the play of form, of being, is the dreaming of substance. rocks have their dreams, and the earth changes... <br> -ursula leguin"
       , "a man can endure the entire weight of the universe for eighty years. it is unreality that he cannot bear. <br> -ursula leguin"
+      , "while it is always best to believe in oneself, a little help from others can be a great blessing. <br> -uncle iroh"
+      , "there is no escape - we pay for the violence of our ancestors. <br> -paul muad'dib"
+      , "there's no real ending. it's just the place where you stop the story. <br> -frank herbert"
+      , "it's all one big meat grinder, man... <br> -rust cohle"
+      , "belief can be manipulated. only knowledge is dangerous. <br> -frank herbert"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
