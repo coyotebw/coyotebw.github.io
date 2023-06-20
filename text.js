@@ -17,10 +17,8 @@
       , "time is an illusion. lunchtime doubly so. <br> -douglas adams"
       , "i aim to misbehave. <br> -malcolm reynolds"
       , "i ain't lookin' for help from on high. that's a long time waitin' for a train don't come. <br> -malcolm reynolds"
-      , "a man chooses. a slave obeys. <br> -andrew ryan"
       , "the man who passes the sentence ought to swing the sword. <br> -eddard stark"
       , "and in that sleep of death, what dreams may come... <br> -hamlet"
-      , "accepting the fate of men also means understanding that the fight is rigged, and that every man will either die early or live to see himself decline. <br> - jack donovan"
       , "no - this is nothing. nothing compared to the fear of losing all i have. <br> -shigeo kageyama"
       , "the man in black fled across the desert, and the gunslinger followed. <br> -stephen king"
       , "if we lose our human nature we lose much, but if we lose our bestial nature, we lose everything. <br> -liu cixin"
@@ -30,7 +28,7 @@
       , "having great power doesn't mean everything works out for you. but that's perfectly fine, so long as you make the important choices yourself. <br> -shigeo kageyama"
       , "laugh, and the world laughs with you. weep, and you weep alone. <br> -oh dae-su"
       , "revenge is good for your health, but pain will find you again. <br> -oh dae-su"
-      , "....that's rad. <br> -kiryu kazuma"
+      , "....that's rad. <br> -kazuma kiryu"
       , "it's always a little harder than you think it's gonna be. <br> -santiago garcia"
       , "with the first link, the chain is forged. <br> -jean-luc picard"
       , "there can be no justice so long as laws are absolute! even life itself is an exercise in exceptions. <br> -jean-luc picard"
@@ -49,14 +47,12 @@
       , "blushing is the color of virtue. <br> -diogenes of sinope"
       , "the foundation of every state is the education of its youth. <br> -diogenes of sinope"
       , "no, emptiness is not nothingness. emptiness is a type of existence. you must use this existential emptiness to fill yourself. <br> -cixin liu"
-      , "depression, like love, trades in cliches, and it is difficult to speak of it without lapsing into the rhetoric of saccharine pop tunes; it is so vivid when experienced that the notion that others have known anything similar seems altogether implausible. <br> -andrew solomon"
       , "if you wake up one morning feeling no pain, you know you are dead. <br> -russian proverb"
       , "screw makin' sense. it's about fighting spirit! <br> -metal bat"
       , "the question of whether computers can think is like the question of whether submarines can swim. <br> -edsger dijkstra"
       , "real evil isn't about bending the law to suit justice; evil is acting out of small, intensely personal experience and losing sight of the bigger picture so often that you never get it back again. <br> -karen traviss"
       , "it is foolish to tear one's hair in grief, as though sorrow would be made less by baldness. <br> -cicero"
       , "the rule of friendship means there should be mutual sympathy between them, each supplying what the other lacks and trying to benefit the other, always using friendly and sincere words. <br> -cicero"
-      , "if i last more than two minutes, that's good sex™. <br> -joe williams"
       , "gratitute is not only the greatest of virtues, but the parent of all the others. <br> -cicero"
       , "time destroys the speculation of men, but it confirms nature. <br> -cicero"
       , "the greatest pleasures are only narrowly separated from disgust. <br> -cicero"
@@ -72,12 +68,14 @@
       , "there's no real ending. it's just the place where you stop the story. <br> -frank herbert"
       , "it's all one big meat grinder, man... <br> -rust cohle"
       , "belief can be manipulated. only knowledge is dangerous. <br> -frank herbert"
+	  , "after everything that's happened, how can the world still be so beautiful? because it is. <br> -margaret atwood"
+	  , "in order to maintain our way of living, we must tell lies to each other, and especially to ourselves. <br> -derrick jensen"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
-    //$("philos").text(" " + rand + " ");
+    //$("text").text(" " + rand + " ");
    
     $("index.html").ready(function(){
-      $("#philos").html(rand);
+      $("#text").html(rand);
     });
     console.log(rand);
