@@ -68,13 +68,13 @@
       , "there's no real ending. it's just the place where you stop the story. <br> -frank herbert"
       , "it's all one big meat grinder, man... <br> -rust cohle"
       , "belief can be manipulated. only knowledge is dangerous. <br> -frank herbert"
-	  , "after everything that's happened, how can the world still be so beautiful? because it is. <br> -margaret atwood"
-	  , "in order to maintain our way of living, we must tell lies to each other, and especially to ourselves. <br> -derrick jensen"
-	  , "somehow, palpatine returned. <br> -fyodor dostoevsky"
-	  , "he who makes a beast of himself gets rid of the pain of being a man. <br> -raoul duke"
-	  , "Very few people stood wholly for the law or wholly against it, and so for them the catastrophe of the churn was an annoyance to be avoided or endured or else a titillation on the newsfeeds. That it was a question of life and death for other people spoke in its favor as entertainment. <br> -james sa corey"
-	  , "You can tell you’ve found a really interesting question when nobody wants you to answer it. <br> ty franck"
-	  , "I thought if you told people facts, they'd draw their conclusions, and because the facts were true, the conclusions mostly would be too. But we don't run on facts. We run on stories about things. About people. <br> james sa corey"
+      , "after everything that's happened, how can the world still be so beautiful? because it is. <br> -margaret atwood",
+	"in order to maintain our way of living, we must tell lies to each other, and especially to ourselves. <br> -derrick jensen",
+	"somehow, palpatine returned. <br> -fyodor dostoevsky",
+	    "he who makes a beast of himself gets rid of the pain of being a man. <br> -raoul duke",
+	    "Very few people stood wholly for the law or wholly against it, and so for them the catastrophe of the churn was an annoyance to be avoided or endured or else a titillation on the newsfeeds. That it was a question of life and death for other people spoke in its favor as entertainment. <br> -james sa corey",
+	    "You can tell you’ve found a really interesting question when nobody wants you to answer it. <br> ty franck",
+	    "I thought if you told people facts, they'd draw their conclusions, and because the facts were true, the conclusions mostly would be too. But we don't run on facts. We run on stories about things. About people. <br> james sa corey"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
