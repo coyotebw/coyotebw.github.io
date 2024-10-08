@@ -32,9 +32,9 @@ fetch('https://ipapi.co/json/')
       var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
       $('#wicon').attr('src', iconurl);
       
-    }).catch(err => console.error(err));
-}).catch{
+    }).catch (err) {
   $("#weather-temp").text(err);
   $("#weather-minmax").text("Too many API requests!");
-  $("wicon").text("Oops");
+  $("#wicon").text("Oops");
 }
+}).catch(err => console.error(err));
