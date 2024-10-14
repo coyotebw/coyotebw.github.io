@@ -1,4 +1,5 @@
 
+
 /*WEATHER SHIT*/
 //props to scotch.io for teaching me fetch api
 var apiKey = '78a26d4681b4c38c1614e7c0f8f366c0';
@@ -32,9 +33,9 @@ fetch('https://ipapi.co/json/')
       var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
       $('#wicon').attr('src', iconurl);
       
-    }).catch (err) {
+    }).catch( (err) => {
   $("#weather-temp").html(err);
   $("#weather-minmax").html("Too many API requests!");
-    }
+    })
 }
 ).catch(err => console.error(err));
