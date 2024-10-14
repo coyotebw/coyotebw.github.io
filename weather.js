@@ -36,5 +36,6 @@ fetch('https://ipapi.co/json/')
   $("#weather-temp").text(err);
   $("#weather-minmax").text("Too many API requests!");
   $("#wicon").text("Oops");
+    }
 }
 }).catch(err => console.error(err));
