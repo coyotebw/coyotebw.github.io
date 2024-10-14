@@ -83,4 +83,4 @@
     $("index.html").ready(function(){
       $("#text").html(rand);
     });
-    console.log(rand);
+  
