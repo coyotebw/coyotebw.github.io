@@ -38,4 +38,4 @@ fetch('https://ipapi.co/json/')
   $("#wicon").text("Oops");
     }
 }
-}).catch(err => console.error(err));
+).catch(err => console.error(err));
