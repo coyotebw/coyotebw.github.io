@@ -80,8 +80,10 @@ div.container {
 
 #text {
   position: absolute;
-  width: 100%;
+  width: auto;
   top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   font-size: 15px;
   margin: 10px;

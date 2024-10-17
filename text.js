@@ -35,7 +35,7 @@
 
 
 var quotes = Array(
-      "Everything that happens happens as it should, and if you observe carefully, you will see this to be so. <br> -Marcus Aurelius"
+        "Everything that happens happens as it should, and if you observe carefully, you will see this to be so. <br> -Marcus Aurelius"
       , "The wealth required by nature is limited and is easy to procure; but the wealth required by vain ideals extends to infinity. <br> -Epicurus"
       , "The woods are lovely, dark and deep, <br> but I have promises to keep, <br> and miles to go before I sleep, <br> and miles to go before I sleep... <br> -Robert Frost"
       , "Costs nothing to say something kind. Even less to shut up altogether. <br> -Malcom Reynolds"
