@@ -86,6 +86,13 @@ var quotes = Array(
       , "Take what the moment offers. Don’t close doors. Be thankful. <br> -Margaret Atwood"
       , "What am I living for and what am I dying for are the same question. <br> -Margaret Atwood"
       , "Glenn used to say the reason you can't really imagine yourself being dead was that as soon as you say, 'I'll be dead,' you've said the word I, and so you're still alive inside the sentence. And that's how people got the idea of immortality of the soul - it was a consequence of grammar. And so was God, because as soon as there's a past tense, there has to be a past before the past, and you keep going back in time until you get to I don't know, and that's what God is. It's what you don't know - the dark, the hidden, the underside of the visible, and all because we have grammar... <br> -Margaret Atwood"
+      , "The ultimate, hidden truth of the world is that it is something that we make, and could just as easily make differently. <br> -David Graeber"
+      , "Solitary pleasures will always exist, but for most human beings, the most pleasurable activities almost always involve sharing something: music, food, liquor, drugs, gossip, drama, beds. There is a certain communism of the senses at the root of most things we consider fun. <br> -David Graeber"
+      , "If you have the power to hit people over the head whenever you want, you don’t have to trouble yourself too much figuring out what they think is going on, and therefore, generally speaking, you don’t. Hence the sure-fire way to simplify social arrangements, to ignore the incredibly complex play of perspectives, passions, insights, desires, and mutual understandings that human life is really made of, is to make a rule and threaten to attack anyone who breaks it. This is why violence has always been the favored recourse of the stupid: it is the one form of stupidity to which it is almost impossible to come up with an intelligent response. It is also of course the basis of the state. <br> -David Graeber"
+      , "For every subtle and complicated question, there is a perfectly simple and straightforward answer, which is wrong. <br> -David Graeber"
+      , "... One must oneself, in relations with one's friends and allies, embody the society one wishes to create. <br> -David Graeber"
+      , "We live well enough to have the luxury to get ourselves sick with purely social, psychological stress. <br> -Robert Sapolsky"
+      , "Morality is simply the attitude we adopt towards people whom we personally dislike. <br> -Robert Sapolsky"
       );
     
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
