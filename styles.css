@@ -24,6 +24,17 @@ p {
   opacity: 0.85;
 }
 
+.quote{
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  padding:10px 0px 10px 0px;
+  /*      top  rgt btm  lft*/
+  width: 100%;
+  background-color: #414656;
+  opacity: 0.85;
+}
+
 div.container {
   top: 30%;
   left: 5%;
